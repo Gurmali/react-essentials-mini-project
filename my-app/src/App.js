@@ -9,6 +9,8 @@ import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
 import EventsBinding from './components/EventBinding';
 import NestingComponents from './components/NestingComponents';
+import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <EventsFunctional />
       <EventsBinding />
       <NestingComponents />
+      <RenderingLists />
+      <LifeCyclesCDM />
     </div>
   );
 }
