@@ -11,6 +11,8 @@ import EventsBinding from './components/EventBinding';
 import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCycleCDU from './components/LifeCycleCDU';
+import LifeCycleCWU from './components/LifeCycleCWU';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <NestingComponents />
       <RenderingLists />
       <LifeCyclesCDM />
+      <LifeCycleCDU />
+      <LifeCycleCWU />
     </div>
   );
 }
