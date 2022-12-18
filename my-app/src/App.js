@@ -13,6 +13,9 @@ import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCycleCDU from './components/LifeCycleCDU';
 import LifeCycleCWU from './components/LifeCycleCWU';
+import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
       <LifeCyclesCDM />
       <LifeCycleCDU />
       <LifeCycleCWU />
+      <ControlledForm />
+      <UncontrolledForm />
+      <SearchBar />
     </div>
   );
 }
