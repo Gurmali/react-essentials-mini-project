@@ -16,6 +16,7 @@ import LifeCycleCWU from './components/LifeCycleCWU';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import ControlledFormHooks from './components/ControlledFormHooks';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <ControlledForm />
       <UncontrolledForm />
       <SearchBar />
+      <ControlledFormHooks />
     </div>
   );
 }
